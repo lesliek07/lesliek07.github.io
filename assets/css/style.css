@@ -17,21 +17,36 @@ nav{
 .brand {
     font-size: 1.5rem;
     font-weight: 500;
+    @media screen and (max-width: 600px){
+        font-size: 1.2rem;
+    }
 }
 header{
     background-image: linear-gradient(to bottom, #0F172A,#2D467F);
 }
 header img{
     width: 30%;
+    @media screen and (max-width: 600px){
+        width: 50%;
+    }
 }
 h1{
     font-size: 4rem;
     font-weight: 700;
     margin-top: 50px;
+    @media screen and (max-width: 600px) {
+        
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 50px;
+    }
 }
 header p{
     font-size: 1.5rem;
     font-weight: medium;
+    @media screen and (max-width: 600px){
+        font-size: 1.3rem;
+    }
 }
 .acerca{
     height: fit-content;
@@ -43,6 +58,9 @@ section p{
 h2{
     font-size: 2.5rem;
     font-weight: 500;
+    @media screen and (max-width: 600px){
+        font-size: 2rem;
+    }
 }
 .gradiente{
     background-image: linear-gradient(to bottom, #0F172A,#1E2E54);
