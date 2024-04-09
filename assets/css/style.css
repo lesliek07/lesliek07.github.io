@@ -31,7 +31,7 @@ header img{
     }
 }
 h1{
-    font-size: 4rem;
+    font-size: 3.9rem;
     font-weight: 700;
     margin-top: 50px;
     @media screen and (max-width: 600px) {
